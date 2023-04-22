@@ -109,9 +109,11 @@
                     </td>
                     <td>
                         <form action="https://formsubmit.co/contact@appcelerate.tech" method="POST">
+			    <input type="hidden" name="_captcha" value="false">
                             <input type="text" placeholder="name" required>
-                            <input type="email" placeholder="email" required><br>
-                            <textarea placeholder="your message" required rows="5"></textarea><br>
+                            <input name="email" type="email" placeholder="email" required><br>
+			    <input name="_next" type="hidden" value="https://appcelerate.tech">
+                            <textarea name="name" placeholder="your message" required rows="5"></textarea><br>
                             <button type="submit" class="btn_one">send</button>
                         </form> 
                     </td>
