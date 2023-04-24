@@ -415,7 +415,7 @@ button:focus {
   border-radius: 4px;
   transition: all .3s ease;
 }
-.content .fab{
+.content .fa{
   font-size: 70px;
   margin: 16px 0;
 }
