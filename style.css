@@ -1401,3 +1401,13 @@ section {
   font-size: 13px;
   color: #364146;
 }
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center; /* optional, to center the cards horizontally */
+}
