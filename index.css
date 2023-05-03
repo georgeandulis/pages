@@ -385,6 +385,7 @@ button:focus {
         display:block;
         text-align:center;
         padding:15px 0px;
+        font-size: smaller;
     }
     #navigation a {
         color:#000;
